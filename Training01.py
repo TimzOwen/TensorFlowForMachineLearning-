@@ -23,37 +23,13 @@ fahrenheit_a = np.array([-40, 14, 32, 46, 59, 72, 100], dtype=float)
 for i, c in enumerate(celsius_q):
     print("{} degrees Celsius = {} degrees fahrenheit".format(c,fahrenheit_a[i]))
    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# expected output 
+-40.0 degrees in celsius = -40.0 degree in fahrenheit
+-10.0 degrees in celsius = 14.0 degree in fahrenheit
+0.0 degrees in celsius = 32.0 degree in fahrenheit
+8.0 degrees in celsius = 46.0 degree in fahrenheit
+15.0 degrees in celsius = 59.0 degree in fahrenheit
+22.0 degrees in celsius = 72.0 degree in fahrenheit
+38.0 degrees in celsius = 100.0 degree in fahrenheit
 
 
